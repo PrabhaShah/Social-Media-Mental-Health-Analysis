@@ -1,0 +1,54 @@
+# 📊 Social Media & Mental Health Balance Analysis
+A data analysis project with statistical modeling foundations for future data science work.
+
+
+## 🔍 Project Overview
+This project analyzes how social media screen time interacts with lifestyle factors such as sleep quality, stress levels, and exercise frequency to influence happiness. While rooted in exploratory data analysis 
+and business reasoning, the project gradually extends into statistical modeling, reflecting a Data Analyst skill set with a clear pathway toward Data Scientist responsibilities.
+
+
+## 🧠 Business & Analytical Questions
+* How does daily screen time relate to happiness across users?
+* Which lifestyle factors buffer or amplify the emotional impact of screen exposure?
+* Can behavioral patterns help distinguish balanced vs high-risk digital habits?
+* How can these insights inform mental health and digital well-being initiatives?
+
+
+## 🛠 Methodology (Analyst → Scientist Progression)
+* Data cleaning and validation using domain-based reasoning
+* Descriptive and exploratory data analysis (EDA)
+* Interaction analysis to study behavioral moderation effects
+* Multiple linear regression with interaction terms
+* Model diagnostics (VIF, residual analysis) to validate assumptions
+
+
+## 📈 Key Insights
+* Screen time alone is not a strong determinant of happiness.
+* Sleep quality and stress levels significantly shape the emotional impact of digital usage.
+* Exercise contributes to resilience under high screen exposure.
+* Well-being outcomes emerge from interacting behaviors, not isolated variables.
+
+
+## ✅ Practical Takeaways
+* Digital well-being strategies should focus on sleep and stress management rather than strict screen-time limits.
+* Physical activity plays a meaningful supporting role for high screen-time individuals.
+* Balanced lifestyle frameworks are more effective than digital abstinence.
+
+
+## ⚠️ Limitations
+* Cross-sectional and self-reported data
+* No causal inference
+* Potential confounding variables not captured
+
+
+## 🧰 Tools & Technologies
+Python, Pandas, NumPy, Matplotlib, Seaborn, Statsmodels
+
+
+## 🚀 Career Positioning
+This project reflects my current focus as a Data Analyst, with an emphasis on data cleaning, EDA, interpretation, and communication. The inclusion of interaction modeling and diagnostics demonstrates my ongoing 
+progression toward Data Scientist responsibilities, including statistical reasoning and model validation.
+
+
+## 📌 Conclusion
+By combining analytical rigor with behavioral insight, this project highlights how thoughtful data analysis can evolve naturally into data science work when grounded in strong exploratory foundations.
