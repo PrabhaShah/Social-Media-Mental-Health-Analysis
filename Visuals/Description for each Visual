@@ -1,0 +1,66 @@
+Description for each visual and related Insight:
+
+1. Correlation Heatmap of Lifestyle & Well-Being Factors
+
+What this shows:
+This heatmap provides a high-level view of how lifestyle variables relate to each other and to happiness. It reveals that happiness is strongly associated with 
+sleep quality (positive) and stress levels (negative), while daily screen time is strongly linked to poorer sleep and higher stress.
+
+Why it matters:
+Rather than treating screen time as a standalone factor, this visualization highlights indirect pathways through which screen usage influences well-being. It 
+motivates deeper interaction analysis by showing that sleep and stress are key mediators in the relationship between screen time and happiness.
+
+2.  Happiness Levels by Exercise Frequency (High Screen Time Users)
+
+What this shows:
+Among individuals with high daily screen time, happiness levels differ meaningfully by exercise frequency. Users who exercise more frequently tend to report higher median happiness compared to those with low or moderate exercise.
+
+Why it matters:
+This visualization directly addresses the question of protective habits. It demonstrates that even when screen exposure is high, regular exercise can partially 
+offset its negative emotional effects, reinforcing the idea that well-being depends on lifestyle balance rather than screen reduction alone.
+
+
+3. Distribution of Residuals (Regression Diagnostics)
+
+What this shows:
+The residuals from the regression model are approximately normally distributed and centered around zero.
+
+Why it matters:
+This indicates that the linear regression model is statistically appropriate for inference. The near-normal residual distribution supports the reliability of 
+coefficient estimates and validates the use of p-values and test statistics when interpreting the impact of screen time and lifestyle factors on happiness.
+
+
+4. Screen Time vs Happiness (Colored by Sleep Quality)
+
+What this shows:
+While the overall regression line indicates a negative relationship between screen time and happiness, individuals with good sleep quality consistently report 
+higher happiness at similar screen-time levels compared to poor sleepers.
+
+Why it matters:
+This visualization demonstrates interaction rather than simple correlation. Sleep quality moderates the effect of screen time on happiness, showing that adequate 
+sleep buffers the emotional impact of prolonged digital exposure. This directly supports the project’s focus on contextual digital balance.
+
+
+5. Screen Time vs Happiness (Colored by Stress Levels)
+
+What this shows:
+High-stress individuals tend to cluster below the overall regression trend, reporting lower happiness at comparable screen-time levels, while low-stress individuals
+maintain relatively higher happiness.
+
+Why it matters:
+This plot illustrates that stress amplifies the negative effect of screen time on well-being. It confirms that screen exposure becomes more harmful under high 
+emotional load, reinforcing the project’s conclusion that mental well-being is shaped by interacting behavioral and emotional factors.
+
+6. Residuals vs Fitted Values
+
+What this shows:
+Residuals are randomly scattered around zero across fitted happiness values, with no strong systematic patterns.
+
+Why it matters:
+This suggests that the model satisfies key assumptions of linearity and homoscedasticity. The absence of structured patterns indicates that the model captures the 
+main relationships in the data without major specification errors, strengthening confidence in the regression-based conclusions.
+
+Note: 
+# How these visuals work together
+Taken together, these visuals move the analysis from what is happening (correlations) to why it happens (interactions) and finally to how confidently we can trust 
+the results(model diagnostics). They collectively support the project’s central insight: screen time alone does not determine happiness — lifestyle context does.
