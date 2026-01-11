@@ -1,0 +1,9 @@
+├── data/
+│   └── listed_ipos_latest.csv (from moneycontrol.com)
+├── notebooks/
+│   └── IPO_Analysis.ipynb
+├── Visuals
+│   └── Graphs and Interpretation
+├── Readme.md
+
+
